@@ -11,12 +11,12 @@ download file " helper " in root app directory  <br><br>
 
 ## create component 
 
-### EX : 
+
 
 ```bash
-$ php helper make:component src/components/Product
+$ php helper make:component path/ComponentName
 ```
-
+## EX 
 ![alt text](images/2.png)
 create file  'src/components/Product.js' 
 #### content file  
@@ -35,8 +35,9 @@ export default Product;
 
 ## create class  component 
 ```bash
-$ php helper make:component src/components/ProductList  --class
+$ php helper make:component path/ComponentName  --class
 ```
+## EX 
 ![alt text](images/4.png)
 create file  'src/components/ProductList.js' 
 #### content file  
@@ -65,8 +66,9 @@ export default ProductList;
 ## create slice
 
 ```bash
-$ php helper make:slice src/slices/Product
+$ php helper make:slice src/slices/SliceName
 ```
+## EX
 ![alt text](images/6-.png)
 
 
